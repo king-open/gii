@@ -7,9 +7,6 @@ export default defineConfig({
   themeConfig: {
     name: 'gii',
     logo: '/gii/images/logo.svg',
-    darkMode: {
-      logo: '/gii/images/logo-dark.svg',
-    },
     nav: [
       { title: '快速开始', link: '/gii/quick-start' },
       { title: '组件', link: '/gii/components' },
@@ -23,7 +20,4 @@ export default defineConfig({
     'gii': '/src',
   },
   favicons: ['/gii/images/logo.svg'],
-  theme: {
-    '@c-primary': '#1677FF',
-  },
 });
