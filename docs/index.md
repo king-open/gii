@@ -1,15 +1,15 @@
 ---
 title: GII - 现代化的 React 组件库
 hero:
-  title: GII 
+  title: GII Design
   description: 优雅、直观且高可定制的 React UI 组件库
-  image: /images/logo.svg
+  image: /gii/images/logo.svg
   actions:
     - text: 开始使用
-      link: /quick-start
+      link: /gii/quick-start
       type: primary
     - text: GitHub
-      link: https://github.com/your-repo
+      link: https://github.com/king-open/gii
       type: default
 features:
   - title: 现代化设计
@@ -30,5 +30,6 @@ features:
   - title: 高可定制
     emoji: ⚙️
     description: 提供丰富的配置项和 API，满足各类个性化需求
+footer: Copyright © 2024 安东尼
 ---
 

@@ -6,18 +6,18 @@ export default defineConfig({
   publicPath: '/gii/',
   themeConfig: {
     name: 'gii',
-    logo: '/images/logo.svg',
+    logo: '/gii/images/logo.svg',
     darkMode: {
-      logo: '/images/logo-dark.svg',
+      logo: '/gii/images/logo-dark.svg',
     },
     nav: [
-      { title: '快速开始', link: '/quick-start' },
-      { title: '组件', link: '/components' },
+      { title: '快速开始', link: '/gii/quick-start' },
+      { title: '组件', link: '/gii/components' },
     ],
     footer: 'Copyright ©  安东尼'
   },
   alias: {
     'gii': '/src',
   },
-  favicons: ['/images/logo.svg'],
+  favicons: ['/gii/images/logo.svg'],
 });
