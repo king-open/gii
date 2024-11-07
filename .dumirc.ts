@@ -14,10 +14,16 @@ export default defineConfig({
       { title: '快速开始', link: '/gii/quick-start' },
       { title: '组件', link: '/gii/components' },
     ],
-    footer: 'Copyright ©  安东尼'
+    footer: 'Copyright © 2024 安东尼',
+    socialLinks: {
+      github: 'https://github.com/king-open/gii'
+    }
   },
   alias: {
     'gii': '/src',
   },
   favicons: ['/gii/images/logo.svg'],
+  theme: {
+    '@c-primary': '#1677FF',
+  },
 });
