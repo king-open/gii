@@ -5,11 +5,11 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "gii": ["src"],
-      "gii/*": ["src/*", "*"]
+      "gii": ["src/index.ts"],
+      "gii/*": ["src/*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]

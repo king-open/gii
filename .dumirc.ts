@@ -10,6 +10,6 @@ export default defineConfig({
     ],
   },
   alias: {
-    gii: '/src',
+    'gii': '/src',
   },
 });

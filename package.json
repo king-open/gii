@@ -2,7 +2,8 @@
   "name": "gii",
   "version": "0.0.1",
   "description": "A react library developed with dumi",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "start": "npm run dev",
