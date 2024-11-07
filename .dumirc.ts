@@ -20,4 +20,7 @@ export default defineConfig({
     'gii': '/src',
   },
   favicons: ['/gii/images/logo.svg'],
+  resolve: {
+    docDirs: ['docs'],
+  },
 });
