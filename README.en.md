@@ -1,7 +1,6 @@
 <div align="center">
   <h1>GII</h1>
   
-  <p>优雅且现代的 React 组件库</p>
   <p>Elegant and Modern React Component Library</p>
 
   [![NPM version](https://img.shields.io/npm/v/gii.svg?style=flat)](https://npmjs.org/package/gii)
@@ -11,24 +10,24 @@
   ![React](https://img.shields.io/badge/React-18.x-blue)
 </div>
 
-[English](./README.en.md) | 简体中文
+[简体中文](./README.md) | English
 
-## ✨ 特性
+## ✨ Features
 
-- 🎯 简洁直观的设计语言
-- 📦 开箱即用的高质量组件
-- 🛡 使用 TypeScript 开发，提供完整类型定义
-- 🎨 支持主题定制，满足个性化需求
-- 🌍 支持国际化
-- 📱 支持服务端渲染
+- 🎯 Intuitive design language
+- 📦 High-quality components out of the box
+- 🛡 Written in TypeScript with complete type definitions
+- 🎨 Customizable theme to meet various design needs
+- 🌍 Internationalization support
+- 📱 Server-side rendering support
 
-## 🖥 兼容环境
+## 🖥 Environment Support
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari |
 | --- | --- | --- | --- |
 | Edge ≥ 79 | Firefox ≥ 78 | Chrome ≥ 64 | Safari ≥ 12 |
 
-## 📦 安装
+## 📦 Installation
 
 ```bash
 # npm
@@ -41,7 +40,7 @@ yarn add gii
 pnpm add gii
 ```
 
-## 🔨 使用
+## 🔨 Usage
 
 ```tsx
 import { Button } from 'gii';
@@ -53,31 +52,31 @@ const App = () => (
 );
 ```
 
-## 🎯 开发
+## 🎯 Development
 
 ```bash
-# 安装依赖
+# Install dependencies
 $ npm install
 
-# 启动开发服务
+# Start development server
 $ npm start
 
-# 构建组件库
+# Build component library
 $ npm run build
 
-# 构建文档
+# Build documentation
 $ npm run docs:build
 ```
 
-## 🤝 贡献
+## 🤝 Contributing
 
-欢迎任何形式的贡献，你可以用如下方式：
+Any form of contribution is welcome, you can:
 
-- 提交 [Issue](https://github.com/your-username/gii/issues)
-- 提交 [Pull Request](https://github.com/your-username/gii/pulls)
+- Submit [Issues](https://github.com/your-username/gii/issues)
+- Submit [Pull Requests](https://github.com/your-username/gii/pulls)
 
-## 📝 开源协议
+## 📝 License
 
 [MIT](./LICENSE)
 
-Copyright © 2024 安东尼
+Copyright © 2024 Anthony 
