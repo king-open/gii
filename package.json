@@ -5,6 +5,14 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/king-open/gii"
+  },
+  "homepage": "https://github.com/king-open/gii",
+  "bugs": {
+    "url": "https://github.com/king-open/gii/issues"
+  },
   "scripts": {
     "start": "npm run dev",
     "dev": "dumi dev",

@@ -2,6 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  base: '/gii/',
+  publicPath: '/gii/',
   themeConfig: {
     name: 'gii',
     logo: '/images/logo.svg',
