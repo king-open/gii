@@ -1,34 +1,13 @@
-import React, { FC, ReactNode } from 'react';
-import { ThemeProvider } from '../../../src/context/ThemeContext';
-import TopNav from '../../../src/components/TopNav';
-import styled from 'styled-components';
+import { Outlet } from 'dumi';
+import { Layout } from 'dumi-theme-default';
+import React from 'react';
 
-const Layout = styled.div<{ isDarkMode?: boolean }>`
-  min-height: 100vh;
-  padding-top: 64px;
-`;
-
-const MainContent = styled.main`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 24px;
-`;
-
-interface LayoutProps {
-  children: ReactNode;
-}
-
-const BasicLayout: FC<LayoutProps> = ({ children }) => {
+const CustomLayout: React.FC = () => {
   return (
-    <ThemeProvider>
-      <Layout>
-        <TopNav />
-        <MainContent>
-          {children}
-        </MainContent>
-      </Layout>
-    </ThemeProvider>
+    <Layout footer="Copyright © 2024 安东尼">
+      <Outlet />
+    </Layout>
   );
 };
 
-export default BasicLayout; 
+export default CustomLayout;
